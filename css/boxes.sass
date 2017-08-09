@@ -1,0 +1,44 @@
+
+// COLORS:
+$cream:	darken(#FFFDD0, 5%)
+$gray: #8B8589
+$blue: #2e5090
+$platinum: #E5E4E2
+$darkplatinum: darken(#E5E4E2, 8%)
+
+.container
+    height: 100vh
+    display: flex
+    flex-direction: column
+
+.box
+    background: $cream
+    flex-grow: 1
+    flex-basis: auto
+
+
+
+.row
+    display: flex
+    width: 56%
+    margin: auto
+    flex: 1
+
+
+.painted
+    background: $blue
+
+
+
+.new_grid_btn
+    position: absolute
+    top: 22px
+    left: 60px
+    padding: 10px
+    background: $platinum
+    border: 1px solid $darkplatinum
+    border-radius: 3px
+
+    &:hover
+        cursor: pointer
+        background: $darkplatinum
